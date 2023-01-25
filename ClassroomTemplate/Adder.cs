@@ -1,6 +1,9 @@
-﻿namespace ClassroomTemplate;
+namespace ClassroomTemplate;
 
-public record class Adder(int First, int Second)
+public static class Adder
 {
-    public int Sum => throw new NotImplementedException();
+    public static int Sum(int x, int y)
+    {
+        return x + y;
+    }
 }
